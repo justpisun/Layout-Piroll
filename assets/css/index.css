@@ -25,6 +25,7 @@ h1, h2, h3, h4, h4, h5, h6 {
 /* Container */
 .container {
     width: 100%;
+    height: 100%;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -191,4 +192,40 @@ h1, h2, h3, h4, h4, h5, h6 {
     position: relative;
     top: -3px;
     background-color: #10c9c3;
+}
+
+/* Our Achievement */
+.our-achievement {
+    background-color: #10c9c3;
+    width: 100%;
+    height: 35vh;
+}
+
+.p25 {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.white-color {
+    color: white;
+}
+
+.sub-text {
+    font-size: 12px;
+}
+
+.part4 {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+.achievement-text {
+    margin-left: 30px;
 }
