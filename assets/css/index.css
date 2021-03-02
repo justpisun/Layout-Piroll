@@ -133,3 +133,62 @@ h1, h2, h3, h4, h4, h5, h6 {
     color: #787878;
     margin-bottom: 40px;
 }
+
+/* Professional Skills*/
+.professional-skills {
+    display: flex;
+    flex-direction: row;
+    height: 85vh;
+}
+
+.left-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 150px;
+    width: 50%;
+    background-color: #f8f9f9;
+}
+
+.right-block {
+    width: 50%;
+}
+
+.skills {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 20px
+}
+
+.skills:first-child {
+    margin-top: 20px;
+}
+
+.tape {
+    width: 500px;
+    height: 3px;
+}
+
+.p75{
+    width: 375px;
+}
+
+.p90{
+    width: 450px;
+}
+
+
+.p65{
+    width: 325px;
+}
+
+.gray {
+    background-color: #d8d8d8;
+}
+
+.green {
+    position: relative;
+    top: -3px;
+    background-color: #10c9c3;
+}
