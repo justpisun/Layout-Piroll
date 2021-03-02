@@ -53,10 +53,6 @@ h1, h2, h3, h4, h4, h5, h6 {
     font-weight: 600;
 }
 
-.nav {
-    display: flex;
-}
-
 .header-link {
     text-transform: uppercase;
     margin-right: 30px;
@@ -114,4 +110,26 @@ h1, h2, h3, h4, h4, h5, h6 {
 .button:hover {
     color: #10c9c3;
     background-color: white;
+}
+
+/* About Us */
+.about-us {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+}
+
+.medium-text {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.small-text {
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #787878;
+    margin-bottom: 40px;
 }
