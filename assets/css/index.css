@@ -327,3 +327,39 @@ h1, h2, h3, h4, h4, h5, h6 {
     font-size: 12px;
     font-weight: 700;
 }
+
+/* Testimonials */
+.testimonials {
+    color: #ffffff;
+    height: 60vh;
+    background-color: #10c9c3;
+}
+
+.feedback {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    letter-spacing: 0.7px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+.under-text {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.slider {
+    margin-top: 85px;
+}
