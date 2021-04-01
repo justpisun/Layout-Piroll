@@ -363,3 +363,24 @@ h1, h2, h3, h4, h4, h5, h6 {
 .slider {
     margin-top: 85px;
 }
+
+
+/* Clients */
+.clients {
+    height: 30vh;
+}
+
+.images {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    margin-right: 170px;
+}
+
+.image:last-child {
+    margin-right: 0;
+}
