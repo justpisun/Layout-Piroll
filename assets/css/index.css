@@ -477,3 +477,48 @@ h1, h2, h3, h4, h4, h5, h6 {
 .submit-button:focus {
     outline: none;
 }
+
+/* Footer */
+.footer {
+    height: 30vh;
+    background-color: #141414;
+}
+
+.footer a {
+    transition: color .2s ease-out;
+    color: #bcbcbc;
+}
+
+.footer a:hover {
+    color: #ffffff;
+}
+
+.footer-text {
+    font-size: 15px;
+    height: 100%;
+    font-weight: 500px;
+    color: #bcbcbc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.corporation-name {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600px;
+    margin-bottom: 30px;
+}
+
+.all-rights {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.left-menu {
+    margin-right: 50px;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: row;
+}
