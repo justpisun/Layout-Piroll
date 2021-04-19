@@ -8,6 +8,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Piroll</title>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -17,12 +21,12 @@
                 <img class="logo-img" src="/assets/images/Logo.png">
                 <nav class="nav">
                     <a class="header-link" href="#">Home</a>
-                    <a class="header-link" href="#">About</a>
-                    <a class="header-link" href="#">Work</a>
-                    <a class="header-link" href="#">Process</a>
-                    <a class="header-link" href="#">Services</a>
-                    <a class="header-link" href="#">Testiomonials</a>
-                    <a class="header-link" href="#">Contact</a>
+                    <a class="header-link" href="#about">About</a>
+                    <a class="header-link" href="#work">Work</a>
+                    <a class="header-link" href="#process">Process</a>
+                    <a class="header-link" href="#services">Services</a>
+                    <a class="header-link" href="#testiomonials">Testiomonials</a>
+                    <a class="header-link" href="#contact">Contact</a>
                 </nav>
             </header>
 
@@ -48,7 +52,7 @@
     <!-- Intro -->
 
     <div class="container">
-        <div class="about-us">
+        <div class="about-us" id="about">
             <div class="medium-text">
                 About Us
             </div>
@@ -154,7 +158,7 @@
     </div>
     <!-- Our Achievement -->
 
-    <div class="projects">
+    <div class="projects" id="work">
         <div class="line">
             <div class="project even">
 
@@ -193,7 +197,7 @@
     </div>
     <!-- Projects -->
 
-    <div class="work-process">
+    <div class="work-process" id="process">
         <div class="container">
             <div class="medium-text centered margin-bottom">
                 Our Work Process
@@ -212,7 +216,7 @@
         </div>
     </div>
 
-    <div class="services gray-background">
+    <div class="services gray-background" id="services">
         <div class="container">
             <div class="services-line centered">
                 <div class="service">
@@ -311,7 +315,7 @@
     </div>
     <!-- Services -->
 
-    <div class="testimonials">
+    <div class="testimonials" id="testiomonials">
         <div class="container">
             <div class="feedback">
                 <div class="text">
@@ -353,7 +357,7 @@
     </div>
     <!-- Clients -->
 
-    <div class="need-a-project">
+    <div class="need-a-project" id="contact">
         <div class="container">
             <div class="contact-form">
                 <div class="huge-title centered">
@@ -420,6 +424,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="assets/js/app.js"></script>
 
 </body>
 </htlm>
